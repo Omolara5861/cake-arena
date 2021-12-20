@@ -1,0 +1,102 @@
+/* Color Pallet */
+:root {
+    --main-color: #c8a97e;
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+
+body {
+    background-color: var(--secondary-color) !important;
+}
+
+/* Nav Bar Styles starts here */
+.ftco-navbar-light {
+    background-color: transparent !important;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    z-index: 3;
+}
+
+.ftco-navbar-light .navbar-brand {
+    color: var(--primary-color);
+}
+
+.ftco-navbar-light .navbar-brand:hover,
+.ftco-navbar-light .navbar-brand:focus {
+    color: var(--primary-color);
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 14px;
+    padding: 0.8rem 20px;
+    color: var(--primary-color) !important;
+    opacity: 1 !important;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.cta > a {
+    background-color: var(--main-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: var(--main-color)  !important;
+}
+
+/* Style for the scroll effect */
+.ftco-navbar-light.scrolled .nav-item.active > a {
+    color: var(--main-color)  !important;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta > a {
+    color: var(--primary-color);
+    background-color: var(--main-color);
+    border: none !important;
+    border-radius: 0;
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta > a span {
+    display: inline-block;
+    color: var(--primary-color);
+}
+
+.ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
+    border-color: var(--main-color);
+}
+
+.ftco-navbar-light.scrolled .nav-link {
+    padding: 0.7rem 0 !important;
+    color: var(--secondary-color) !important;
+}
+
+.ftco-navbar-light.scrolled .nav-link.active {
+    color: var(--main-color) !important;
+}
+
+.ftco-navbar-light.scrolled.awake {
+    margin-top: 0;
+    transition: all 0.3s ease-out;
+}
+
+.ftco-navbar-light.scrolled.sleep {
+    transition: all 0.3s ease-out;
+}
+
+.ftco-navbar-light.scrolled .navbar-brand {
+    color: var(--secondary-color);
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 900;
+}
+/* Nav Bar Styles ends here */
