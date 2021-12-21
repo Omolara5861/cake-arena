@@ -664,10 +664,52 @@ body {
 }
 /* Testimonial section styles ends here */
 
-/* Staffs section styles starts here */
+/* Staffs / Chefs section styles starts here */
+.staff {
+  transition: all 0.3s ease;
+}
 
-/* Staffs section styles ends here */
+.staff .img {
+  height: 320px;
+  border-radius: 5px;
+  background-position: top center;
+}
 
-/* Staffs section styles starts here */
+.staff .text {
+  background: var(--primary-color);
+  transition: all 0.3s ease;
+}
 
-/* Staffs section styles ends here */
+.staff .text h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.staff .text .position {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+.staff .text .faded {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.ftco-social {
+  padding: 0;
+}
+.ftco-social li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.ftco-social span {
+  color: #7e2147d8;
+}
+
+/* Staffs / Chefs section styles ends here */
+
+/* Contact section styles starts here */
+
+/* Contact section styles ends here */
