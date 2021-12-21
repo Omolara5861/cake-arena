@@ -8,16 +8,13 @@
 
 html{
     overflow-x: hidden ;
+    scroll-behavior: smooth;
 }
-/* 
-body {
-    background-color: var(--secondary-color) !important;
-} */
 
 /* Nav Bar Styles starts here */
 .ftco-navbar-light {
     background-color: transparent !important;
-    position: absolute;
+    position: absolute !important;
     top: 50px;
     left: 0;
     right: 0;
