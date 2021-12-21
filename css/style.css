@@ -322,8 +322,12 @@ html{
   padding: 55px 50px 59px 70px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
+  transition: right 0.3s ease-in-out;
 }
 
+.intro_content:hover {
+  right: -100px;
+}
 .intro_subtitle {
   font-size: 28px;
   font-family: "Poppins" cursive;
@@ -401,6 +405,14 @@ html{
 /* Gallary section styles starts here */
 .gallery__pic img {
   max-width: 100%;
+}
+
+.gallery__pic {
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery__pic:hover {
+  transform: scale(1.1);
 }
 
 .bg-light {
