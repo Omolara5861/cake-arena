@@ -237,3 +237,49 @@ body {
   
 /* Slider (carousel) Styles ends here */
 
+/* Slider featured Styles starts here */
+.featured {
+  padding-top: 30px;
+  width: 100%;
+  margin-top: -230px;
+  border-top: 1px solid rgba(225, 225, 225, 0.2);
+}
+
+.featured .featured-menus {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.featured .featured-menus .text { 
+  width: 100%;
+}
+
+.featured .featured-menus .text h3 { 
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: var(--primary-color);
+}
+
+.featured .featured-menus .text p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+.featured .featured-menus  .menu-img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* Slider featured Styles ends here */
