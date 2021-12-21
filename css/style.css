@@ -710,6 +710,76 @@ body {
 
 /* Staffs / Chefs section styles ends here */
 
-/* Contact section styles starts here */
+/* Order a cake section styles starts here */
+.makereservation {
+  width: 100%;
+  background: var(--primary-color);
+}
 
-/* Contact section styles ends here */
+.makereservation .form-group label {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.makereservation .form-group .icon {
+  position: absolute;
+  top: 50% !important;
+  right: 20px;
+  font-size: 14px;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.makereservation .form-group .select-wrap {
+  position: relative;
+}
+
+.makereservation .form-group .select-wrap select {
+  appearance: none;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  outline: none;
+}
+
+.btn.btn-primary {
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: var(--primary-color);
+}
+
+.btn.btn-primary:hover {
+  background: transparent;
+  border: 1px solid var(--main-color);
+  color: var(--secondary-color);
+}
+
+.btn.btn-primary.btn-outline-primary {
+  border: 1px solid var(--main-color);
+  background: transparent;
+  color: var(--main-color);
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+  border: 1px solid transparent;
+  background: var(--main-color);
+  color: var(--primary-color);
+}
+/* Order a cake section styles ends here */
+
+/* Blog section styles starts here */
+
+/* Blog section styles ends here */
+
+
+/* Footer section styles starts here */
+
+/* Footer section styles ends here */
