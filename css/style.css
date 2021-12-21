@@ -401,5 +401,48 @@ body {
 /* About section styles ends here */
 
 /* Gallary section styles starts here */
+.gallery__pic img {
+  max-width: 100%;
+}
+
+.bg-light {
+  background: #fafafa !important;
+}
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.heading-section {
+  position: relative;
+}
+
+.heading-section .subheading {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  font-weight: normal;
+  font-size: 100px;
+  display: block;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, 0.2);
+  color: var(--main-color);
+  line-height: 1;
+  margin-top: 0;
+  z-index: -1;
+  font-family: "Great Vibes", cursive;
+}
+
+.heading-section h2 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2;
+}
 
 /* Gallary section styles ends here */
+
+/* Menu section styles starts here */
+
+/* Menu section styles ends here */
