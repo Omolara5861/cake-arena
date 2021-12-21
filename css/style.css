@@ -829,5 +829,126 @@ body {
 
 
 /* Footer section styles starts here */
+.ftco-bg-dark {
+  background: #3c312e;
+}
 
+.ftco-footer {
+  font-size: 14px;
+  background: #141313;
+  padding: 50px 0 10px 0px;
+}
+.ftco-footer .ftco-footer-logo {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: var(--primary-color);
+}
+.ftco-footer .ftco-footer-widget .open-hours li span {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer .ftco-footer-widget .thumb a.thumb-menu {
+  width: 100%;
+  height: 100px;
+  display: block;
+}
+
+.ftco-footer p,
+.ftco-footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.ftco-footer a:hover {
+  color: var(--primary-color);
+}
+
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.ftco-footer .categories li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ftco-footer .categories li a span {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.ftco-footer .subscribe-form .form-group {
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.ftco-footer .subscribe-form .form-group input {
+  border-radius: 2px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: none;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16px;
+}
+
+.ftco-footer .subscribe-form .form-group .submit {
+  color: var(--primary-color) !important;
+  font-size: 16px;
+  background: var(--main-color) !important;
+  border: none !important;
+  border-radius: 2px;
+}
+
+.ftco-footer .subscribe-form .form-group .submit:hover {
+  cursor: pointer;
+}
+
+.ftco-footer .subscribe-form .icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.ftco-footer-social li {
+  list-style: none;
+  margin: 0 10px 0 0;
+  display: inline-block;
+}
+.ftco-footer-social li a {
+  height: 40px;
+  width: 40px;
+  display: block;
+  float: left;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  position: relative;
+}
+
+.ftco-footer-social li a:hover {
+  background: var(--main-color);
+}
+
+.ftco-footer-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li .fa:hover {
+  color: var(--secondary-color);
+}
 /* Footer section styles ends here */
