@@ -513,8 +513,8 @@ body {
 }
 
 .menus:hover .text .one-forth .price {
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .menus:hover .text p {
@@ -776,7 +776,55 @@ body {
 /* Order a cake section styles ends here */
 
 /* Blog section styles starts here */
+.single-cat-widget {
+  position: relative;
+  text-align: center;
+}
 
+.single-cat-widget .overlay-bg {
+  background: rgba(0, 0, 0, 0.85);
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
+
+.single-cat-widget img {
+  width: 100%;
+}
+.single-cat-widget .content-details {
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: var(--primary-color);
+  bottom: 0px;
+  position: absolute;
+}
+
+.single-cat-widget .content-details h4 {
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.single-cat-widget .content-details span {
+  display: inline-block;
+  background: var(--primary-color);
+  width: 60%;
+  height: 1%;
+}
+
+.single-cat-widget .overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.single-cat-widget:hover .overlay-bg {
+  background: rgba(186, 146, 54, 0.85);
+  margin: 7%;
+  transition: all 0.4s ease 0s;
+}
 /* Blog section styles ends here */
 
 
