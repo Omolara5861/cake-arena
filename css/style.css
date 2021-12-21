@@ -9,10 +9,10 @@
 html{
     overflow-x: hidden ;
 }
-
+/* 
 body {
     background-color: var(--secondary-color) !important;
-}
+} */
 
 /* Nav Bar Styles starts here */
 .ftco-navbar-light {
@@ -283,3 +283,123 @@ body {
   background-repeat: no-repeat;
 }
 /* Slider featured Styles ends here */
+
+/* About section styles starts here */
+.ftco-wrap-about {
+  background-position: bottom center !important;
+}
+.ftco-wrap-about .heading-section h2 {
+  font-weight: 600 !important;
+}
+
+.ftco-wrap-about .img {
+  width: 100%;
+}
+
+.intro {
+  width: 100%;
+  background: var(--primary-color);
+  padding-top: 102px;
+  padding-bottom: 0px;
+}
+
+.intro_image {
+  width: 100%;
+}
+
+.intro_image img {
+  max-width: 100%;
+}
+
+.intro_content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -165px;
+  width: 679px;
+  background: var(--primary-color);
+  border: solid 2px #b49388;
+  box-shadow: 0px 45px 70px rgba(0, 0, 0, 0.24);
+  z-index: 1;
+  padding: 55px 50px 59px 70px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.intro_subtitle {
+  font-size: 28px;
+  font-family: "Poppins" cursive;
+}
+
+.intro_title {
+  margin-top: 6px;
+  font-family: "Great Vibes", cursive;
+  color: #9b4b15;
+  font-weight: 600;
+}
+
+.intro_title h2 {
+  font-size: 40px;
+}
+
+.intro_text {
+  margin-top: 32px;
+  font-size: 14px;
+}
+
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#section-counter {
+  margin-top: 50px;
+  position: relative;
+  z-index: -1;
+}
+
+#section-counter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  background: #000000;
+}
+
+.ftco-counter {
+  padding-bottom: 5em;
+  background-position: center center !important;
+}
+
+.ftco-counter .block-18 {
+  display: block;
+  width: 100%;
+}
+
+.ftco-counter .text strong.number {
+  font-weight: 600;
+  font-size: 44px;
+  color: #c8a97e;
+  display: block;
+  line-height: 1;
+}
+
+.ftco-counter .text span {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.ftco-counter p {
+  line-height: 1.8;
+  font-size: 18px;
+}
+/* About section styles ends here */
+
+/* Gallary section styles starts here */
+
+/* Gallary section styles ends here */
