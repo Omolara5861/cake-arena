@@ -93,6 +93,30 @@ AOS.init({
             },
         },
         });
+        $(".carousel-testimony").owlCarousel({
+            loop: true,
+            autoplay: true,
+            center: true,
+            margin: 30,
+            nav: false,
+            stagePadding: 0,
+            items: 1,
+            navText: [
+            "<span class = 'ion-ios-arrow-back'></span>",
+            "<span class = 'ion-ios-arrow-forward'></span>",
+            ],
+            responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 2,
+            },
+            1000: {
+                items: 3,
+            },
+            },
+        });
     };
     carousel();
 

@@ -277,7 +277,8 @@ body {
   border-radius: 50%;
 }
 
-.img {
+.img,
+.user-img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -523,9 +524,150 @@ body {
 
 
 /* Testimonial section styles starts here */
+.testimony-section {
+  position: relative;
+  z-index: 0;
+  background-position: center center !important;
+  position: relative;
+  background-attachment: fixed;
+  /* .testimonial .overlay*/
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: soft-light;
+}
 
+.testimony-section .img-bg {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.testimony-section .owl-carousel {
+  margin: 0;
+}
+
+.testimony-section .owl-carousel .owl-stage-outer {
+  padding: 1.5em 0 2em 0;
+  position: relative;
+}
+.testimony-section .owl-nav {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+.testimony-section .owl-nav .owl-prev,
+.testimony-section .owl-nav .owl-next {
+  position: absolute;
+  transform: translateY(-50%);
+  margin-top: -10px;
+  outline: none !important;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.testimony-section .owl-nav .owl-prev span::before,
+.testimony-section .owl-nav .owl-next span::before {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.testimony-section .owl-nav .owl-prev:hover span::before,
+.testimony-section .owl-nav .owl-prev:focus span::before,
+.testimony-section .owl-nav .owl-next:hover span::before,
+.testimony-section .owl-nav .owl-next:focus span::before {
+  color: var(--primary-color);
+}
+.testimony-section .owl-nav .owl-prev {
+  left: 50%;
+  margin-left: -80px;
+}
+.testimony-section .owl-nav .owl-next {
+  right: 50%;
+  margin-right: -80px;
+}
+
+.testimony-section .owl-dots {
+  text-align: center;
+}
+
+.testimony-section .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.253);
+}
+
+.testimony-section .owl-dots .owl-dot.active {
+  background: #ff2377;
+}
+
+.testimony-wrap {
+  display: block;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0 20px;
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+}
+.testimony-wrap .text p {
+  font-style: italic;
+}
+
+.testimony-wrap .icon {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff2377;
+}
+
+.testimony-wrap .icon span {
+  color: var(--primary-color);
+}
+
+.testimony-wrap .user-img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+}
+
+.testimony-wrap .name {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: var(--primary-color);
+  font-style: normal !important;
+}
+
+.testimony-wrap .position {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.heading-section.heading-section-white .subheading {
+  color: var(--main-color);
+}
+.heading-section.heading-section-white h2 {
+  color: var(--primary-color);
+}
+.heading-section.heading-section-white p {
+  color: rgba(255, 255, 255, 0.9);
+}
 /* Testimonial section styles ends here */
 
-/* Testimonial section styles starts here */
+/* Staffs section styles starts here */
 
-/* Testimonial section styles ends here */
+/* Staffs section styles ends here */
+
+/* Staffs section styles starts here */
+
+/* Staffs section styles ends here */
