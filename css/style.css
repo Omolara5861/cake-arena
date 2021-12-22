@@ -22,6 +22,10 @@ html{
     padding: 0;
 }
 
+.close-icon{
+  display: none;
+}
+
 .ftco-navbar-light .navbar-brand {
     color: var(--primary-color);
 }
@@ -961,3 +965,125 @@ html{
   color: var(--secondary-color);
 }
 /* Footer section styles ends here */
+
+/* Media Query */
+@media(max-width : 991px){
+  
+  .navbar-toggler.collapsed .menu_line_1,
+  .navbar-toggler.collapsed .menu_line_2,
+  .navbar-toggler.collapsed .menu_line_3{
+      width: 24px;
+      height: 2px;
+      background-color: #fff;
+      margin: 5px auto;
+      display: block;
+      transform: none;
+      opacity: 1;
+      transition: all 0.4s ease-in-out;
+  }
+  .navbar-toggler.collapsed .menu_line_1{
+      margin-top: 11px;
+  }
+  .navbar-toggler .menu_line_1{
+      transform: rotate(-45deg) translate(-10px, 10px);
+      width: 24px;
+      height: 2px;
+      background-color: #fff;
+      margin: 5px auto;
+      display: block;
+      opacity: 1;
+      transition: all 0.4s ease-in-out;
+  }
+  .navbar-toggler .menu_line_3{
+      opacity: 0;
+      transition: all 0.4s ease-in-out;
+  }
+  .navbar-toggler .menu_line_2{
+      transform: rotate(45deg) translate(5px, 5px);
+      width: 24px;
+      height: 2px;
+      background-color: #fff;
+      margin: 5px auto;
+      display: block;
+      opacity: 1;
+      transition: all 0.4s ease-in-out;
+  }
+
+  .nabar-own{
+      justify-content: flex-end;
+  }
+
+  .nabar-own .navbar-toggler{
+      padding: 0;
+      border-radius: 0;
+      cursor: pointer;
+  }
+
+  .navbar-toggler:focus{
+      outline: none;
+  }
+
+  .nabar-own .navbar-toggler-icon{
+      height: 40px;
+      width:40px;
+      line-height: 40px;
+      text-align: center;
+      cursor: pointer;
+  }
+  .nabar-own .navbar-toggler-icon i{
+      font-size: 23px;
+      color: #fff;
+      line-height: 40px;
+  }
+
+  .tr-nabar-collapse {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+  }
+
+
+  .intro_content:hover {
+    right: -60px;
+  }
+  
+}
+
+@media(max-width : 767px){
+  
+  .tr-nabar-collapse{
+      margin-top: 72px;
+  }
+
+  .owl-carousel.home-slider .slider-item {
+    background-position: center right 38%;
+  }
+
+  /* .owl-carousel.home-slider .b-day {
+    background-position: center right 20%;
+  } */
+
+  .featured { 
+    display: none;
+}  
+
+.intro_content {
+  right: 30px;
+  width: 300px;
+  padding: 45px 40px 49px 60px;
+  border-radius: 30px;
+}
+
+.intro_content:hover {
+  right: 30px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .sub-heading {
+  font-size: 50px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+}

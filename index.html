@@ -38,18 +38,27 @@
   </head>
   <body>
     <!-- Nav Bar starts here -->
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg nabar-own ftco_navbar ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Cake Arena</a>
-            <div class="collpase navbar-collapse" id="ftco-nav">
+
+            <!-- Hamburger Menu -->
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                  <span class="menu_line_1"></span>
+                  <span class="menu_line_2"></span>
+                  <span class="menu_line_3"></span>
+              </span>
+          </button>
+            <div class="collapse navbar-collapse tr-nabar-collapse" id="navbarSupportedContent" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
-                    <li class="nav-item "><a href="/" class="nav-link">About</a></li>
-                    <li class="nav-item "><a href="/" class="nav-link">Gallary</a></li>
-                    <li class="nav-item "><a href="/" class="nav-link">Menu</a></li>
-                    <li class="nav-item "><a href="/" class="nav-link">Reviews</a></li>
-                    <li class="nav-item  cta"><a href="/" class="nav-link">Order a cake</a></li>
-                    <li class="nav-item "><a href="/" class="nav-link">Blog</a></li>
+                    <li class="nav-item tr-nav-item active"><a href="/" class="nav-link">Home</a></li>
+                    <li class="nav-item tr-nav-item "><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item tr-nav-item "><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item tr-nav-item "><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item tr-nav-item "><a href="#testimonial" class="nav-link">Reviews</a></li>
+                    <li class="nav-item tr-nav-item  cta"><a href="#order" class="nav-link">Order a cake</a></li>
+                    <li class="nav-item tr-nav-item "><a href="#blog" class="nav-link">Blog</a></li>
 
                 </ul>
             </div>
@@ -59,7 +68,8 @@
 
     <!-- Slider Section starts here -->
     <section class="home-slider owl-carousel js-fullheight">
-      <div class="slider-item js-fullheight" style="background-image: url('images/bg_1.jpg');">
+      <!-- Slider 1 -->
+      <div class="slider-item b-day js-fullheight" style="background-image: url('images/bg_1.jpg');">
         <div class="container">
           <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
             <div class="col-md-12 col-sm-12 ftco-animate text-center">
@@ -252,7 +262,7 @@
 
   <!-- About section ends here  -->
 
-  <!-- Gallary section starts here  -->
+  <!-- Gallery section starts here  -->
   <section class="ftco-section bg-light" id="gallery">
     <div class="container">
         <div class="row">
