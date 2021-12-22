@@ -409,13 +409,14 @@ html{
 /* Gallary section styles starts here */
 .gallery__pic img {
   max-width: 100%;
-}
-
-.gallery__pic {
   transition: all 0.3s ease-in-out;
 }
 
-.gallery__pic:hover {
+.gallery__pic {
+  overflow: hidden;
+}
+
+.gallery__pic img:hover {
   transform: scale(1.1);
 }
 
@@ -521,7 +522,7 @@ html{
   background: linear-gradient(
     235deg,
     rgba(231, 111, 169, 0.741) 30%,
-    rgba(165, 77, 124, 0.763) 67%
+    rgb(197, 140, 173) 67%
   );
 }
 
@@ -785,6 +786,18 @@ html{
   border: 1px solid transparent;
   background: var(--main-color);
   color: var(--primary-color);
+}
+
+.response-card {
+  color: darkgreen;
+  height: auto !important;
+  border: 31px solid var(--main-color);
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  display: none;
+  transition: all 0.3s ease-in-out;
 }
 /* Order a cake section styles ends here */
 
@@ -1058,9 +1071,9 @@ html{
     background-position: center right 38%;
   }
 
-  /* .owl-carousel.home-slider .b-day {
-    background-position: center right 20%;
-  } */
+  .owl-carousel.home-slider .b-day {
+    background-position: center right 35%;
+  }
 
   .featured { 
     display: none;
