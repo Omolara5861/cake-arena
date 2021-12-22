@@ -197,10 +197,11 @@ AOS.init({
 })(jQuery);
 
 let button = document.querySelector('.btn');
-let order = document.querySelector('form');
+let order = document.querySelector('.form');
 let response = document.querySelector('.response-card');
 
 button.addEventListener("click", () => {
-  order.style.display = "none";
-  response.style.display = "relative";
+  order.style.visibility = "hidden";
+  order.style.height = "0px";
+  response.style.visibility = "visible";
 });
