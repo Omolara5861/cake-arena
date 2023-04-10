@@ -19,4 +19,4 @@ Please see the [LICENSE file](LICENSE.md) for more information.
 > license notice in any copy of the project/source.
 
 
-*Copyright (c) 2023 Laradev. All right reserved.*
+*Copyright (c) 2021 Laradev. All right reserved.*
