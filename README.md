@@ -1,4 +1,14 @@
 # Cake Arena
+Cake Arena is a website built with HTML, CSS, Bootstrap, Javascript, and JQuery where users can browse and purchase various cakes. The website features a variety of cakes for different occasions.
+
+# Getting Started
+To get started with Cake Arena, simply clone the repository to your local machine:
+
+```bash
+git clone https://github.com/omolara5861/cake-arena.git
+```
+Once you've cloned the repository, you can open the website by opening the `index.html` file in your web browser.
+
 
 ## Technologies
 This project was built with VS Code using:
